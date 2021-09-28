@@ -53,7 +53,7 @@ function draw() {
 
 #### Die HTML-Datei
 
-Die Datei sollte immer `index.html` heissen. Dadurch wird sie von einem Web-Server automatisch angezeigt, wenn es im gleichen Ornder mehrere HTML-Dateien gibt. Den Inhalt kannst du hier copy-pasten:
+Die Datei sollte immer `index.html` heissen. Dadurch wird sie von einem Web-Server automatisch angezeigt, wenn es im gleichen Ordner mehrere HTML-Dateien gibt. Den Inhalt kannst du hier copy-pasten:
 
 ```
 <!DOCTYPE html>
@@ -84,11 +84,11 @@ let foo = 0
 ### In die Konsole schreiben
 
 ```
-console.log("Hello World") // Hello World
+console.log("Hello World")
 
-console.log("3 + 4") // 3 + 4
+console.log("3 + 4")
 
-console.log(3 + 4) // 7
+console.log(3 + 4)
 ```
 
 ### if / else
@@ -117,11 +117,13 @@ let rows = 10
 
 for (let row = 0; row < rows; row += 1) {
   for (let col = 0; col < cols; col += 1) {
-    push() // speichert den Nullpunkt u.ä.
+    push()
     translate(col * cellSize, row * cellSize)
+
     // ab hier bist du «in der Rasterzelle»
     rect(0, 0, cellSize, cellSize)
-    pop() // stellt den ursprünglichen Nullpunkt wieder her
+
+    pop()
   }
 }
 ```
@@ -132,7 +134,7 @@ Die Funktion [`pull()`](https://p5js.org/reference/#/p5/push) speichert Einstell
 
 Funktionen sind wie Werkzeuge: Mit ihnen kannst du Code-Abschnitte bei Bedarf aufrufen.
 
-Um eine eigene Funktion zu definieren schreibst du das Schlüsslewort `function` und den Namen, der die Funktion kriegen soll:
+Um eine eigene Funktion zu definieren schreibst du das Schlüsselwort `function` und den Namen, der die Funktion kriegen soll:
 
 ```
 function greet(name) {
