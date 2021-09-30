@@ -117,6 +117,7 @@ let rows = 10
 
 for (let row = 0; row < rows; row += 1) {
   for (let col = 0; col < cols; col += 1) {
+
     push()
     translate(col * cellSize, row * cellSize)
 
@@ -177,3 +178,24 @@ function pythagoras(a, b) {
 
 console.log(pythagoras(3, 4)) // 5
 ```
+
+## Dinge, die in p5 anders heissen als in DrawBot
+
+Drawbot: `width()` und `height()`
+
+p5: `width` und `height`
+
+---
+
+Drawbot: `oval(x, y, w, h)`
+
+p5: `ellipse(x, y, w, [h])` oder `circle(x, y, d)`
+
+---
+
+Drawbot: `with savedState():`
+
+p5: `push()` und `pop()`
+
+---
+
