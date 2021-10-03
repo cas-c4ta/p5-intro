@@ -60,6 +60,7 @@ Die Datei sollte immer `index.html` heissen. Dadurch wird sie von einem Web-Serv
 <html lang="de">
 <head>
   <meta charset="UTF-8">
+  <link rel="shortcut icon" href="#">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Titel</title>
 </head>
@@ -181,19 +182,25 @@ console.log(pythagoras(3, 4)) // 5
 
 ## Dinge, die in p5 anders heissen als in DrawBot
 
-Drawbot: `width()` und `height()`
+DrawBot: `width()` und `height()`
 
 p5: `width` und `height`
 
 ---
 
-Drawbot: `oval(x, y, w, h)`
+DrawBot: `oval(x, y, w, h)`
 
 p5: `ellipse(x, y, w, [h])` oder `circle(x, y, d)`
 
 ---
 
-Drawbot: `with savedState():`
+DrawBot: `fill(None)` und `stroke(None)`
+
+p5: `noFill()` und `noStroke`
+
+---
+
+DrawBot: `with savedState():`
 
 p5: `push()` und `pop()`
 
