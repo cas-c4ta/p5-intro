@@ -196,7 +196,7 @@ p5: `ellipse(x, y, w, [h])` oder `circle(x, y, d)`
 
 DrawBot: `fill(None)` und `stroke(None)`
 
-p5: `noFill()` und `noStroke`
+p5: `noFill()` und `noStroke()`
 
 ---
 
