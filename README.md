@@ -206,3 +206,10 @@ p5: `push()` und `pop()`
 
 ---
 
+DrawBot: `strokeWidth()`
+
+p5: `strokeWeight()`
+
+*Mein persönlicher Favorit*
+
+---
